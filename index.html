@@ -173,9 +173,9 @@ Participe agora e ganhe muitos prêmios valiosos!
 <vue-box-picker v-if="showBoxPicker" :vertical-items="4" lid-image="https://i.imgur.com/ppQh4XE.png" box-image="https://i.imgur.com/l34UCgQ.png" box-back-image="https://i.imgur.com/ve5fhRU.png" prize-image="https://i.imgur.com/KwJJSUf.png" v-on:fail="onBoxPickerFail" v-on:success="onBoxPickerSuccess" :horizontal-items="3" :max-clicks="2"></vue-box-picker>
 <div class="verify" v-if="showRotator">
 <vue-text-rotator v-on:rotate="rotate" v-on:finished="onRotatorFinished" :strings='[
-                     "Please wait ...",
-              "Please wait ...",
-              "Please wait ..."
+                     "Por favor, aguarde ...",
+              "Por favor, aguarde ...",
+              "Por favor, aguarde ..."
             ]'>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
